@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./services.html">About</a></li>
+                    <li><a href="./about.html">Survice</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu.svg" alt=""></div>
+            </nav>
+            <div class="header-content">
+                <h1>EARTH</h1>
+                <p>ENDLESS POTENTIAL</p>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="container" id="services">
+        <div class="service">
+            <img src="service-1.png" alt=""/>
+            <h1>web Designing</h1>
+            <p>Custom Web Design for small business, we heip you capture new audience and increse your sales</p>
+        </div>
+
+        <div class="service">
+            <img src="service-2.png" alt=""/>
+            <h1>Graphic Design</h1>
+            <p>Custom Web Design for small business, we heip you capture new audience and increse your sales</p>
+        </div>
+
+        <div class="service">
+            <img src="service-3.png" alt=""/>
+            <h1>content creation</h1>
+            <p>Custom Web Design for small business, we heip you capture new audience and increse your sales</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container">
+        <div class="about-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ad reprehenderit. Impedit veniam odio dolor quis eaque modi, provident ab reprehenderit, repellat ipsam dolores similique voluptates repudiandae inventore nesciunt at!</p>
+        </div>
+        <div class="about-img">
+            <img src="about.png">
+        </div>
+    </section>
+
+    <!-- TALK TO US -->
+    <section id="talk-to-us">
+        <div class="talk-us-content">
+            <h1>Talk To Us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente possimus sed doloribus reprehenderit sunt doloremque.</p>
+            <button class="primary-btn">SET IN TUCH</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>02022 Earth. All right reserved</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>

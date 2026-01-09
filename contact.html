@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contact-header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>EARTH</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./index.html">Survice</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="menu.svg" alt=""></div>
+            </nav>
+            <div class="header-content">
+                <h1>CONTACT US</h1>
+                
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="container">
+        <form action="#">
+            <h1>Get In Tuch</h1>
+            <div class="inputwrapper">
+                <input type="text" placeholder="Your name">
+                <input type="text" placeholder="phone Number">
+                <input type="email" name= "" id="" placeholder="Email">
+                <textarea name="Message" id="" row="30" cols="30"></textarea>
+                <button class="primary-btn">SEND NOW</button>
+            </div>
+        </form>
+        <div class="address">
+            <h1>Talk To Us</h1>
+            <div class="detailswrapper">
+
+                <div class="detail">
+                    <img src="email.png">
+                    <div class="text">
+                        <h6>EMAIL</h6>
+                        <p>sakshisawant@gmail.com</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <img src="phone.png">
+                    <div class="text">
+                        <h6>Phone Number</h6>
+                        <p>955675000</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <img src="location.png">
+                    <div class="text">
+                        <h6>ADDRESS</h6>
+                        <p>college road <br> pandit coloany nashik</p>
+                    </div>
+                </div>
+
+                <div class="followUsWrapper">
+                    <h3> Follow Us</h3>
+                    <ul class="sociallinks">
+                        <li><a href=""><img src="facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="linkdin.png" alt=""></a></li>
+                        <li><a href=""><img src="vedio.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    
+    <footer>
+        <ul class="footer-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+        </ul>
+        <h1 class="logo">EARTH</h1>
+        <p>02022 Earth. All right reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuBtn.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
